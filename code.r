@@ -4,7 +4,7 @@ library(rpart)
 library(rpart.plot)
 
 # Load the dataset
-file_path <- "C:/Users/rishi/Desktop/musicX.csv"
+file_path <- 'musicX.csv'
 df_clean <- readr::read_csv(file_path)
 
 
